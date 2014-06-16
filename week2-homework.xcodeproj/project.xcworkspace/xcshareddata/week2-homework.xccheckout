@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C1107E52-AB2A-4D08-8B4A-5B8EEDC6CB6D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>week2-homework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6521776-B277-44B5-8952-A674C302BE98</key>
+		<string>https://github.com/leibao/week2-homework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>week2-homework.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6521776-B277-44B5-8952-A674C302BE98</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/leibao/week2-homework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6521776-B277-44B5-8952-A674C302BE98</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6521776-B277-44B5-8952-A674C302BE98</string>
+			<key>IDESourceControlWCCName</key>
+			<string>week2-homework</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -57,6 +57,10 @@
     self.btnSignin.layer.cornerRadius = 15;
     self.btnSignin.enabled = NO;
     self.btnSignin.alpha = 0.3;
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,12 +74,31 @@
     if ([self.inputID.text isEqualToString:@"lei"]&[self.inputPassword.text isEqualToString:@"password"]) {
         NSLog(@"success");
         // load list view
-        UIViewController *listViewController = [[ListViewController alloc] init];
         
-        listViewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
         
-        [self presentViewController:listViewController animated:YES completion:nil];
+        
+        //UIViewController *listViewController = [[ListViewController alloc] init];
+        
+        //listViewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+        
+        //[self presentViewController:listViewController animated:YES completion:nil];
 
+        //load nav bar on listview
+        ListViewController *feedNavVC = [[ListViewController alloc] init];
+        
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:feedNavVC];
+        
+       // UITabBarController *tabBarController = [[UITabBarController alloc] initWithNibName:@"tabBarController" bundle:nil];
+        
+       // tabBarController.tabBar.frame = CGRectMake(0, 524, 320, 320);
+        
+       // tabBarController.tabBar.backgroundImage = [UIImage imageNamed:@"TabBar"];
+        
+      //  tabBarController.viewControllers = @[nav];
+        
+               
+        [self presentViewController:nav animated:YES completion: nil];
+        
         
     } else {
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Oops" message:@"Wrong login info" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
